@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 70px;
+}
+
+.logo {
+  font-family: Catlinz;
+  font-size: 30px;
+  letter-spacing: 0.225em;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin-right: 30px;
+}
+
+.btn {
+  min-height: 24px;
+  min-width: 24px;
+
+  color: var(--orange);
+}
+
+@media (max-width: 576px) {
+  .logo {
+    font-size: 28px;
+  }
+
+  .name {
+    margin-right: 12px;
+
+    font-size: 12px;
+  }
+
+  .btn {
+    background-image: url(../../assets/images/icons/login.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    font-size: 0;
+  }
+}

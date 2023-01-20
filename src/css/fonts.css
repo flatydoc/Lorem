@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Mulish";
+  src: local("Mulish"), local("Mulish"),
+    url("../assets/fonts/Mulish.woff2") format("woff2"),
+    url("../assets/fonts/Mulish.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Catlinz";
+  src: local("Catlinz"), local("Catlinz"),
+    url("../assets/fonts/Catlinz.woff2") format("woff2"),
+    url("../assets/fonts/Catlinz.woff") format("woff");
+  font-style: normal;
+}
