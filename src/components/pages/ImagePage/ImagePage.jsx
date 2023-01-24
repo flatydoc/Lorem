@@ -1,12 +1,12 @@
 import styles from "./ImagePage.module.scss";
 
-export const ImagePage = (props) => {
+export const ImagePage = ({ image }) => {
   return (
     <div className={styles.imagePage}>
       <img
         className={styles.img}
-        src={props.image.download_url}
-        alt={`from ${props.image.author}`}
+        src={image.download_url}
+        alt={`from ${image.author}`}
       />
       <div className={styles.details}>
         <h4 className={styles.title}>DETAILS</h4>
@@ -15,15 +15,15 @@ export const ImagePage = (props) => {
             <p className={styles.tableTitle}>Resolution</p>
             <p
               className={styles.tableContent}
-            >{`${props.image.width} x ${props.image.height}`}</p>
+            >{`${image.width} x ${image.height}`}</p>
           </div>
           <div>
             <p className={styles.tableTitle}>Author</p>
-            <p className={styles.tableContent}>{props.image.author}</p>
+            <p className={styles.tableContent}>{image.author}</p>
           </div>
           <div>
             <p className={styles.tableTitle}>ID</p>
-            <p className={styles.tableContent}>{props.image.id}</p>
+            <p className={styles.tableContent}>{image.id}</p>
           </div>
         </div>
       </div>

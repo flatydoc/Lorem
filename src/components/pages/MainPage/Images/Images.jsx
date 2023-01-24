@@ -7,7 +7,6 @@ export const Images = (props) => {
       key={index}
       id={image.id}
       url={image.download_url}
-      downloadUrl={image.download_url}
       author={image.author}
     />
   ));
