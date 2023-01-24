@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Lorem/static/css/main.f429e92f.css",
+    "main.js": "/Lorem/static/js/main.b17b2b1a.js",
+    "static/media/laptop.png": "/Lorem/static/media/laptop.3ad6ba38304e41cd4347.png",
+    "static/media/login_bg.jpg": "/Lorem/static/media/login_bg.201e97ef2d56fc0fbf54.jpg",
+    "static/media/login_pattern.jpg": "/Lorem/static/media/login_pattern.744e64d119213e4f310f.jpg",
+    "static/media/Catlinz.woff": "/Lorem/static/media/Catlinz.d9df08f3feed5c465715.woff",
+    "static/media/Catlinz.woff2": "/Lorem/static/media/Catlinz.753644d9282c8620f63f.woff2",
+    "static/media/Mulish.woff": "/Lorem/static/media/Mulish.80f28c77f600f74412d6.woff",
+    "static/media/Mulish.woff2": "/Lorem/static/media/Mulish.a0860bfdd3db486c929d.woff2",
+    "static/media/mastercard_logo.svg": "/Lorem/static/media/mastercard_logo.95a84a835887f22d14444bb093299be5.svg",
+    "static/media/maestro_logo.svg": "/Lorem/static/media/maestro_logo.d52e581c143d95634cf8efbb5c4fbb91.svg",
+    "static/media/visa_logo.svg": "/Lorem/static/media/visa_logo.c091da32b82de0a02d7e581e92a4e2c0.svg",
+    "index.html": "/Lorem/index.html",
+    "static/media/login.svg": "/Lorem/static/media/login.d9256f64d88015509bfd.svg",
+    "main.f429e92f.css.map": "/Lorem/static/css/main.f429e92f.css.map",
+    "main.b17b2b1a.js.map": "/Lorem/static/js/main.b17b2b1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f429e92f.css",
+    "static/js/main.b17b2b1a.js"
+  ]
+}
