@@ -1,4 +1,10 @@
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+  Navigate,
+  HashRouter,
+} from "react-router-dom";
 import { LogInContext } from "./core/context/LogInContext";
 import { LogInPageContainer } from "./views/LogInPage/LoginPageContainer";
 import { Layout } from "./views/Layout/Layout";
@@ -17,7 +23,7 @@ export const App = () => {
     <LogInContext.Provider
       value={{ isLogin, makeLogin, makeLogout, getCurrentUser }}
     >
-      <BrowserRouter>
+      <HashRouter>
         <div className={styles.app}>
           <Routes>
             <Route
@@ -35,7 +41,7 @@ export const App = () => {
             />
           </Routes>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </LogInContext.Provider>
   );
 };
