@@ -1,15 +1,15 @@
+import { Outlet } from "react-router-dom";
 import { Header } from "../../components/Header/Header";
-import { Content } from "../../components/Content/Content";
 import { Footer } from "../../components/Footer/Footer";
 
-import styles from "./MainPage.module.scss";
+import styles from "./Layout.module.scss";
 
-export const MainPage = () => {
+export const Layout = () => {
   return (
     <>
       <div className={styles.wrapper}>
         <Header />
-        <Content />
+        <Outlet />
         <Footer />
       </div>
       <div className={styles.copyright}>

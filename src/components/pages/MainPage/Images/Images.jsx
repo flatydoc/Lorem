@@ -6,10 +6,9 @@ export const Images = (props) => {
     <Image
       key={index}
       id={image.id}
-      url={image.url}
+      url={image.download_url}
       downloadUrl={image.download_url}
       author={image.author}
-      getImage={props.getImage}
     />
   ));
   return (

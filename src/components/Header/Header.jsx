@@ -5,7 +5,7 @@ import { LogInContext } from "../../core/context/LogInContext";
 import styles from "./Header.module.scss";
 
 export const Header = () => {
-  const { logout, getCurrentUser } = useContext(LogInContext);
+  const { getCurrentUser, makeLogout } = useContext(LogInContext);
 
   const userName = getCurrentUser();
 
@@ -16,7 +16,7 @@ export const Header = () => {
       </NavLink>
       <nav className={styles.nav}>
         <p className={styles.name}>{userName}</p>
-        <button onClick={logout} className={styles.btn}>
+        <button onClick={makeLogout} className={styles.btn}>
           Logout
         </button>
       </nav>

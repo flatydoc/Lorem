@@ -1,8 +1,8 @@
 import { useRef } from "react";
 import { ImagesContainer } from "./Images/ImagesContainer";
-import styles from "./Content.module.scss";
+import styles from "./MainPage.module.scss";
 
-export const Content = () => {
+export const MainPage = () => {
   const imagesRef = useRef();
 
   function scrollTo() {
@@ -10,7 +10,7 @@ export const Content = () => {
   }
 
   return (
-    <div className={styles.main}>
+    <>
       <div className={styles.head}>
         <div className={styles.titleWrapper}>
           <h1 className={styles.title}>Lorem ipsum dolor sit amet</h1>
@@ -23,11 +23,11 @@ export const Content = () => {
         </div>
         <img
           className={styles.img}
-          src={require("../../assets/images/laptop.png")}
+          src={require("../../../assets/images/laptop.png")}
           alt="laptop"
         />
       </div>
       <ImagesContainer refProp={imagesRef} />
-    </div>
+    </>
   );
 };

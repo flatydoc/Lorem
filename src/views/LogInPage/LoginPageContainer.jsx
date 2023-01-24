@@ -7,7 +7,7 @@ export const LogInPageContainer = () => {
     name: "",
     pass: "",
   });
-  const { login } = useContext(LogInContext);
+  const { makeLogin } = useContext(LogInContext);
   const [errorMessage, setErrorMessage] = useState(null);
 
   const changeHandler = (e) => {
@@ -16,8 +16,8 @@ export const LogInPageContainer = () => {
 
   const loginHandler = () => {
     if (formData.name.length >= 4 && formData.pass.length >= 4) {
-      const { status, message } = login(formData.name, formData.pass);
-      if (status === 400) {
+      const { status, message } = makeLogin(formData.name, formData.pass);
+      if (status !== 200) {
         setErrorMessage(message);
       }
     } else setErrorMessage("Wrong name or password. Please, try again");

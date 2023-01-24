@@ -1,4 +1,4 @@
-import { Input } from "../../components/ui/Input";
+import { Input } from "../../components/ui/Input/Input";
 import styles from "./LogInPage.module.scss";
 
 export const LogInPage = ({

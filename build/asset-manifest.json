@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4985a9bc.css",
+    "main.js": "/static/js/main.13e4c38c.js",
+    "static/media/laptop.png": "/static/media/laptop.3ad6ba38304e41cd4347.png",
+    "static/media/login_bg.jpg": "/static/media/login_bg.201e97ef2d56fc0fbf54.jpg",
+    "static/media/login_pattern.jpg": "/static/media/login_pattern.744e64d119213e4f310f.jpg",
+    "static/media/Catlinz.woff": "/static/media/Catlinz.d9df08f3feed5c465715.woff",
+    "static/media/Catlinz.woff2": "/static/media/Catlinz.753644d9282c8620f63f.woff2",
+    "static/media/Mulish.woff": "/static/media/Mulish.80f28c77f600f74412d6.woff",
+    "static/media/Mulish.woff2": "/static/media/Mulish.a0860bfdd3db486c929d.woff2",
+    "static/media/mastercard_logo.svg": "/static/media/mastercard_logo.95a84a835887f22d14444bb093299be5.svg",
+    "static/media/maestro_logo.svg": "/static/media/maestro_logo.d52e581c143d95634cf8efbb5c4fbb91.svg",
+    "static/media/visa_logo.svg": "/static/media/visa_logo.c091da32b82de0a02d7e581e92a4e2c0.svg",
+    "static/media/login.svg": "/static/media/login.d9256f64d88015509bfd.svg",
+    "index.html": "/index.html",
+    "main.4985a9bc.css.map": "/static/css/main.4985a9bc.css.map",
+    "main.13e4c38c.js.map": "/static/js/main.13e4c38c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4985a9bc.css",
+    "static/js/main.13e4c38c.js"
+  ]
+}
